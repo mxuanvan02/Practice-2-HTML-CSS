@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-family: 'Lucida Grande';
+  src: url(../fonts/Lucida-Grande-Regular/Lucida-Grande-Regular.ttf);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-black-hover: rgb(55, 51, 51);
+  --color-black-gray: #4b4b4b;
+  --color-yellow: #EBCB80;
+  --color-yellow-hover: #e4ba58;
+  --color-gray-white: #f6f6f6;
+  --color-border-gray: #7d7d7d;
+  --color-map: #d8d8d8;
+}
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-white);
+  margin: 0;
+}
+
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+.title {
+  font-size: 44px;
+  line-height: 48px;
+}
+
+
+/* ---------------------------------------------------------------------- *\
+                              #PAGE HEADER
+\* ---------------------------------------------------------------------- */
+
+@media(max-width:320px) {
+  header {
+    background: url(../images/header/background.png) center;
+    height: 540px;
+  }
+
+
+  .header-overlay {
+    background: var(--color-black);
+    opacity: 0.5;
+    height: 540px;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-nav__logo {
+
+  }
+  
+  .header-nav__socials {
+    display: flex;
+  }
+}
+
+
