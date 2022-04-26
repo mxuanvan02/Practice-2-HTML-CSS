@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-black-hover: rgb(55, 51, 51);
+  --color-black-gray: #4b4b4b;
+  --color-yellow: #EBCB80;
+  --color-yellow-hover: #e4ba58;
+  --color-gray-white: #f6f6f6;
+  --color-border-gray: #7d7d7d;
+  --color-map: #d8d8d8;
+}
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-white);
+  margin: 0;
+}
+
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+.title {
+  font-size: 44px;
+  line-height: 48px;
+}
+
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* ---------------------------------------------------------------------- *\
+                              #PAGE HEADER
+\* ---------------------------------------------------------------------- */
+
+
+header {
+  height: 540px;
+  width: 320px;
+  background: url(../images/header/background.png) no-repeat;
+  color: var(--color-black);
+}
+
+.page-header-top-bar {
+  display: flex;
+  align-content: space-between;
+}
+
+.page-header-top-bar__title {
+  font-size: 20px;
+  color: var(--color-yellow);
+}
+
+.page-header-top-bar__socicals {
+
+}
+
+.page-header-top-bar__hamburger {
+
+}
+
+.page-header-content {
+  text-align: center;
+  margin: 35px 43px;
+}
+
+.page-header-video-frame {
+  width: 240px;
+  height: 140px;
+  background: url(../images/header/video-frame.png);
+  margin: 0 40px;
+}
+
+.page-header-video-frame__play {
+  margin: 0 auto;
+}
