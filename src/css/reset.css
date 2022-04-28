@@ -1,3 +1,7 @@
 li {
   text-decoration: none;
 }
+
+a {
+  color: var(--color-white);
+}
