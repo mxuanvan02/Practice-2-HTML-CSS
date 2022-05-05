@@ -21,8 +21,8 @@
 
 * {
   font-family: 'Roboto', sans-serif;
-  background-color: var(--color-white);
   margin: 0;
+  padding: 0;
 }
 
 
@@ -45,12 +45,13 @@
 header {
   background: url(../images/header/background.png) no-repeat;
   color: var(--color-black);
-  padding: 0px;
+  padding: 20px 15px;
 }
 
 .page-header-top-bar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .page-header-top-bar__title {
@@ -58,8 +59,21 @@ header {
   color: var(--color-yellow);
 }
 
-.page-header-top-bar__socicals {
-  background-color: #000000;
+.page-header-top-bar__nav-bar {
+  display: none;
+}
+
+.page-header-top-bar__socials {
+  display: flex;
+}
+
+.page-header-top-bar__socials li {
+  padding: 0 10px;
+}
+
+.page-header-top-bar__socials li a img  {
+  width: 20px;
+  height: 16px;  
 }
 
 .page-header-top-bar__hamburger {
@@ -68,23 +82,36 @@ header {
 
 .page-header-content {
   text-align: center;
-  margin: 35px 43px;
+  color: var(--color-white);
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 90px;
+  margin-bottom: 35px;
 }
 
 .page-header-video-frame {
-  width: 240px;
   height: 140px;
-  background: url(../images/header/video-frame.png);
-  margin: 0 40px;
+  background: url(../images/header/video-frame.png) no-repeat center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 .page-header-video-frame__play {
   margin: 0 auto;
 }
 
-@media(min-width: 320px) {
+.page-header-scroll-down {
+  text-align: center;
+  margin-top: 115px;
+  margin-bottom: 20px;
+}
+
+@media(min-width: 321px) {
   header {
     background: url(../images/header/background_table.png) no-repeat;
+    padding: 24px 32px;
   }
 
   
@@ -95,10 +122,24 @@ header {
   .page-header-top-bar__title {
     font-size: 34px;
   }
+
+  .page-header-top-bar__nav-bar {
+    display: flex;
+  }
   
   .page-header-top-bar__socicals {
-    
+    display: flex;
   }
+
+  .page-header-top-bar__socials li {
+    padding: 0 10px;
+  }
+  
+  .page-header-top-bar__socials li a img  {
+    width: 20px;
+    height: 16px;  
+  }
+  
   
   .page-header-top-bar__hamburger {
     display: none;
@@ -110,13 +151,13 @@ header {
   }
 
   .page-header-video-frame {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .page-header-video-frame__play {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    
   }
 }
 
