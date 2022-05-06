@@ -31,12 +31,6 @@
 }
 
 
-.title {
-  font-size: 44px;
-  line-height: 48px;
-}
-
-
 /* ---------------------------------------------------------------------- *\
                               #PAGE HEADER
 \* ---------------------------------------------------------------------- */
@@ -110,34 +104,39 @@ header {
 
 @media(min-width: 321px) {
   header {
-    background: url(../images/header/background_table.png) no-repeat;
+    background: url(../images/header/background-table.png) no-repeat;
     padding: 24px 32px;
+    font-size: 12px;
   }
 
   
   .page-header-top-bar {
-
+    margin-bottom: 75px;
   }
   
   .page-header-top-bar__title {
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .page-header-top-bar__nav-bar {
     display: flex;
+    padding-left: 100px;
+  }
+
+  .nav-item {
+    padding: 0 16px;
   }
   
   .page-header-top-bar__socicals {
-    display: flex;
+
   }
 
   .page-header-top-bar__socials li {
-    padding: 0 10px;
+
   }
   
   .page-header-top-bar__socials li a img  {
-    width: 20px;
-    height: 16px;  
+
   }
   
   
@@ -146,18 +145,87 @@ header {
   }
   
   .page-header-content {
-    margin: 35px 43px;
+    margin: 35px 60px;
     font-size: 32px;
   }
 
   .page-header-video-frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url(../images/header/video-frame-table.png) no-repeat center;
+    height: 202px;
   }
 
   .page-header-video-frame__play {
     
   }
+
+  .page-header-scroll-down {
+    text-align: center;
+    margin-top: 80px;
+  }
 }
+
+@media(min-width: 769px) {
+  header {
+    background: url(../images/header/background-desktop.png) no-repeat;
+    padding: 50px 150px;
+    font-size: 18px;
+  }
+
+  
+  .page-header-top-bar {
+    margin-bottom: 75px;
+  }
+  
+  .page-header-top-bar__title {
+    font-size: 36px;
+  }
+
+  .page-header-top-bar__nav-bar {
+    display: flex;
+    padding-left: 100px;
+  }
+
+  .nav-item {
+    padding: 0 25px;
+  }
+  
+  .page-header-top-bar__socicals {
+    display: flex;
+  }
+
+  .page-header-top-bar__socials li {
+    padding: 0 25px;
+  }
+  
+  .page-header-top-bar__socials li a img  {
+    width: 24px;
+    height: 24px;  
+  }
+  
+  
+  .page-header-top-bar__hamburger {
+    display: none;
+  }
+  
+  .page-header-content {
+    margin: 35px 205px;
+    font-size: 44px;
+
+  }
+
+  .page-header-video-frame {
+    background: url(../images/header/video-frame-desktop.png) no-repeat center;
+    height: 324px;
+  }
+
+  .page-header-video-frame__play {
+    
+  }
+
+  .page-header-scroll-down {
+    text-align: center;
+    margin-top: 80px;
+  }
+}
+
 
