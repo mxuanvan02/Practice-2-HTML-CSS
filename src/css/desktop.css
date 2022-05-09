@@ -1,0 +1,121 @@
+
+@media(min-width: 1200px) {
+
+  /* ---------------------------------------------------------------------- *\
+                              #PAGE HEADER
+  \* ---------------------------------------------------------------------- */
+
+  header {
+    background: url(../images/header/background-desktop.png) no-repeat;
+    padding: 50px 150px;
+    font-size: 18px;
+  }
+
+  
+  .page-header-top-bar {
+    margin-bottom: 75px;
+  }
+  
+  .page-header-top-bar__title {
+    font-size: 36px;
+  }
+
+  .page-header-top-bar__nav-bar {
+    display: flex;
+    padding-left: 100px;
+  }
+
+  .nav-item {
+    padding: 0 25px;
+  }
+  
+  .page-header-top-bar__socicals {
+    display: flex;
+  }
+
+  .page-header-top-bar__socials li {
+    padding: 0 25px;
+  }
+  
+  .page-header-top-bar__socials li a img  {
+    width: 24px;
+    height: 24px;  
+  }
+  
+  
+  .page-header-top-bar__hamburger {
+    display: none;
+  }
+  
+  .page-header-content {
+    margin: 35px 205px;
+    font-size: 44px;
+
+  }
+
+  .page-header-video-frame {
+    background: url(../images/header/video-frame-desktop.png) no-repeat center;
+    height: 324px;
+  }
+
+  .page-header-video-frame__play {
+    
+  }
+
+  .page-header-scroll-down {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  /* ---------------------------------------------------------------------- *\
+                              #FEATURES
+  \* ---------------------------------------------------------------------- */
+
+  .features {
+    padding: 80px 72px 59px 162px;
+  }
+  
+  .features-title {
+    font-size: 44px;
+    margin-bottom: 32px;
+  }
+  
+  .features-subtitle {
+    font-size: 18px;
+  }
+  
+  .features-body {
+    margin-top: 55px;
+    justify-content: space-between;
+  }
+  
+  .features-body__item-content-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .features-body__item-content-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .features-body__item {
+    width: 322px;
+    margin-bottom: 35px;
+    margin-right: 100px;
+  }
+
+  .features-body__item-icon-responsive {
+    width: 53px;
+    height: 44px;
+  }
+
+  .features-body__item-icon-diamond {
+    width: 45px;
+    height: 38px;
+  }
+  .features-body__item-icon-layers {
+    width: 36px;
+    height: 48px;
+  }
+}

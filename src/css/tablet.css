@@ -1,0 +1,80 @@
+
+@media(min-width: 768px) {
+
+  /* ---------------------------------------------------------------------- *\
+                              #PAGE HEADER
+  \* ---------------------------------------------------------------------- */
+  
+  header {
+    background: url(../images/header/background-table.png) no-repeat;
+    padding: 24px 32px;
+    font-size: 12px;
+  }
+
+  
+  .page-header-top-bar {
+    margin-bottom: 75px;
+  }
+  
+  .page-header-top-bar__title {
+    font-size: 24px;
+  }
+
+  .page-header-top-bar__nav-bar {
+    display: flex;
+    padding-left: 100px;
+  }
+
+  .nav-item {
+    padding: 0 16px;
+  }
+  
+  .page-header-top-bar__hamburger {
+    display: none;
+  }
+  
+  .page-header-content {
+    margin: 35px 60px;
+    font-size: 32px;
+  }
+
+  .page-header-video-frame {
+    background: url(../images/header/video-frame-table.png) no-repeat center;
+    height: 202px;
+  }
+
+  .page-header-scroll-down {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  /* ---------------------------------------------------------------------- *\
+                              #FEATURES
+  \* ---------------------------------------------------------------------- */
+
+  .features {
+    padding: 42px 0 40px 50px;
+  }
+  
+  .features-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .features-body {
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .features-body__item {
+    margin-bottom: 72px;
+  }
+  
+  .features-body__image {
+    background: url(../images/features/mac-desktop.png) no-repeat left;
+    width: 802px;
+    height: 464px;
+  }
+ 
+}
