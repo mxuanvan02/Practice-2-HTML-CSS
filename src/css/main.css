@@ -14,8 +14,13 @@
   --color-yellow: #EBCB80;
   --color-yellow-hover: #e4ba58;
   --color-gray-white: #f6f6f6;
-  --color-border-gray: #7d7d7d;
+  --color-gray: #7d7d7d;
   --color-map: #d8d8d8;
+}
+
+
+body {
+  color: var(--color-black-gray);
 }
 
 
@@ -38,7 +43,6 @@
 
 header {
   background: url(../images/header/background.png) no-repeat;
-  color: var(--color-black);
   padding: 20px 15px;
 }
 
@@ -194,4 +198,64 @@ header {
   background: var(--color-yellow-hover);
 }
 
+/* ---------------------------------------------------------------------- *\
+                              #TESTIMONiALS
+\* ---------------------------------------------------------------------- */
 
+.testimonials {
+  padding: 30px 15px;
+  font-size: 12px;
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.testimonials-cards__wrap {
+
+}
+
+.testimonials-cards__item {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.testimonials-cards__item:hover {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.testimonials-cards__item > img {
+  width: 48px;
+  height: 48px;
+}
+
+.testimonials-cards__item-information {
+  margin-left: 18px;
+}
+
+.testimonials-cards__item-information__name {
+  margin: 12px 0;
+}
+
+.testimonials-cards__item-information__description {
+  color: var(--color-gray);
+  margin: 12px 0;
+  border-bottom: solid 2px var(--color-gray-white);
+}
+
+.testimonials-cards__item-information__content {
+  font-size: 11px;
+  line-height: 16px;
+  margin-bottom: 18px;
+  width: 200px;
+} 
+
+.testimonials-cards__item-information__socials {
+  display: flex;
+}
+
+.testimonials-cards__item-information__socials img {
+  margin-right: 15px;
+}
