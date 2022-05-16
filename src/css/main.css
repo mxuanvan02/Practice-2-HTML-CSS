@@ -210,15 +210,13 @@ header {
 .testimonials-title {
   text-align: center;
   font-size: 20px;
-}
-
-.testimonials-cards__wrap {
-
+  margin-bottom: 11px;
 }
 
 .testimonials-cards__item {
   display: flex;
   margin-bottom: 28px;
+  padding: 16px 0 10 9px;
 }
 
 .testimonials-cards__item:hover {
