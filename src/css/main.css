@@ -257,3 +257,43 @@ header {
 .testimonials-cards__item-information__socials img {
   margin-right: 15px;
 }
+
+/* ---------------------------------------------------------------------- *\
+                              #PRICING
+\* ---------------------------------------------------------------------- */
+
+.pricing {
+  background-color: var(--color-gray-white);
+  color: var(--color-black-gray);
+  font-size: 11px;
+  text-align: center;
+  padding: 40px 65px;
+}
+
+.pricing-title {
+  font-size: 20px;
+  margin-bottom: 33px;
+}
+
+.pricing-plan__wrap {
+  text-align: center;
+  background-color: var(--color-yellow);
+}
+
+.pricing-plan__type {
+  font-size: 12px;
+}
+
+
+.pricing-plan__price {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-plan__price-dollar {
+  margin-top: 8px;
+}
+
+.pricing-plan__price-number {
+  font-size: 36px;
+}
