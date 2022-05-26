@@ -279,6 +279,19 @@ header {
 
 }
 
+.pricing-plan__silver {
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  width: 160px;
+  height: 20px;
+  margin: 0 auto;
+  background: linear-gradient(224.09deg, var(--color-black-gray) 5.13%, var(--color-black-gray) 90.88%);
+  background-blend-mode: soft-light;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px #00000080;
+}
+
 .pricing-plan__gold {
   position: relative;
   z-index: 3;
@@ -286,18 +299,7 @@ header {
   background-color: var(--color-yellow);
   padding: 28px 22px;
   border-radius: 8px;
-}
-
-.pricing-plan__silver {
-  position: relative;
-  z-index: 2;
-  bottom: 256px;
-  width: 160px;
-  height: 20px;
-  margin: 0 auto;
-  background: linear-gradient(224.09deg, var(--color-black-gray) 5.13%, var(--color-black-gray) 90.88%);
-  background-blend-mode: soft-light;
-  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px #00000080;
 }
 
 .pricing-plan__silver *, .pricing-plan__platinum * {
@@ -307,13 +309,14 @@ header {
 .pricing-plan__platinum {
   position: relative;
   z-index: 1;
-  bottom: 285px;
+  bottom: 265px;
   width: 140px;
   height: 20px;
   margin: 0 auto;
   background: linear-gradient(223.49deg, var(--color-black) 4.85%, var(--color-black) 96.5%);
   background-blend-mode: multiply;
   border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px #00000080;
 }
 
 .pricing-plan__type {
