@@ -172,7 +172,12 @@
     padding: 28px 22px;
   }
 
+  .pricing-plan__gold .pricing-plan__type {
+    color: var(--color-black-gray);
+  }
+
   .pricing-plan__type {
+    color: var(--color-yellow);
   }
 
 

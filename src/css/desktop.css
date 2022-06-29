@@ -196,4 +196,93 @@
     margin-right: 15px;
   }
 
+  /* ---------------------------------------------------------------------- *\
+                                #PRICING
+  \* ---------------------------------------------------------------------- */
+
+  .pricing {
+    font-size: 16px;
+    text-align: center;
+    padding: 70px 125px;
+  }
+
+  .pricing-title {
+    font-size: 44px;
+    margin-bottom: 52px;
+  }
+
+  .pricing-plan__wrap {
+    margin-bottom: 50px;
+  }
+ 
+  .pricing-plan__silver {
+    position: static;
+    height: 280px;
+    width: 200px;
+    color: var(--color-white);
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .pricing-plan__gold {
+    position: static;
+    text-align: center;
+    width: 200px;
+    height: 280px;
+    background-color: var(--color-yellow);
+    padding: 40px 20px;
+    border-radius: 8px;
+  }
+
+  .pricing-plan__silver *, .pricing-plan__platinum * {
+    display: block;
+  }
+
+  .pricing-plan__platinum {
+    position: static;
+    height: 280px;
+    width: 200px;
+    color: var(--color-white);
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .pricing-plan__type {
+    font-size: 18px;
+  }
+
+
+  .pricing-plan__price {
+    display: flex;
+  }
+
+  .pricing-plan__price-dollar {
+    font-size: 24px;
+  }
+
+  .pricing-plan__price-number {
+    font-size: 64px;
+  }
+
+  .pricing-plan__year {
+    font-size: 18px;
+  }
+
+  .pricing-plan__content {
+  }
+
+  .pricing-plan__silver .pricing-plan__purchase, .pricing-plan__platinum .pricing-plan__purchase {
+    color: var(--color-black-gray);
+    background-color: var(--color-yellow);
+  }
+
+  .pricing-plan__purchase {
+    width: 198px;
+    height: 48px;
+    margin: 30px auto;
+  }
+  
+  .pricing-plan__select-wrap {
+    display: none;
+  }
 }
