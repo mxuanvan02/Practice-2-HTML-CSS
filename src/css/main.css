@@ -415,6 +415,22 @@ header {
   display: flex;
   font-size: 16px;
   justify-content: space-between;
+  margin: 12px 0;
+}
+
+.card-2-time {
+  font-size: 12px;
+}
+
+.border {
+  border: var(--color-white) solid 1px;
+  width: 12px;
+  margin: 12px 0;
+}
+
+.card-2-description {
+  font-size: 11px;
+  line-height: 16px;
 }
 
 .project-card-3 {
@@ -435,4 +451,54 @@ header {
 .project-card-7 {
   background-image: url(../images/portfolio/project-card-6-mobile.png);
   grid-area: card-6;
+}
+
+.project-card-6 {
+  background-color: var(--color-gray-white);
+  color: var(--color-black-gray);
+  padding: 10px 0;
+  padding-left: 25px;
+}
+
+.card-6-photo {
+  display: flex;
+  font-size: 16px;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.card-6-author {
+  font-size: 12px;
+}
+
+
+.project-card-6 .border {
+  border: var(--color-black-gray) solid 1px;
+  width: 12px;
+  margin: 12px 0;
+}
+
+.card-6-title {
+  font-size: 32px;
+  width: 225px;
+}
+
+.portfolio-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.portfolio-pagination .selected {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  background: var(--color-white);
+  color: var(--color-yellow);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
