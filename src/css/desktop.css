@@ -285,4 +285,129 @@
   .pricing-plan__select-wrap {
     display: none;
   }
+
+  
+  /* ---------------------------------------------------------------------- *\
+                              #PORTFOLIO
+  \* ---------------------------------------------------------------------- */
+
+.portfolio {
+  padding: 50px 150px;
+}
+
+.portfolio-title {
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-content__wrap {
+  grid-template-areas:
+  'card-1 card-2 card-2'
+  'card-3 card-3 card-4'
+  'card-5 card-6 card-7';
+  grid-template-columns: 380px 380px 380px;
+  grid-template-rows: 380px 380px 380px;
+}
+
+.project-card-1 {
+  background-image: url(../images/portfolio/project-card-1-desktop.png);
+  grid-area: card-1;
+}
+
+.project-card-2 {
+  background-image: url(../images/portfolio/project-card-2-desktop.png);
+  grid-area: card-2;
+  color: var(--color-white);
+  padding: 58px 40px 20px 420px;
+}
+
+.card-2-title {
+  display: flex;
+  font-size: 32px;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.card-2-time {
+  font-size: 18px;
+}
+
+.border {
+  border: var(--color-white) solid 3px;
+  width: 32px;
+  margin: 35px 0;
+}
+
+.card-2-description {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0;
+}
+
+.card-2-status span {
+  font-size: 12px;
+  margin-right: 25px;
+}
+
+
+.card-2-status img {
+  margin-right: 6px;
+}
+
+.project-card-3 {
+  background-image: url(../images/portfolio/project-card-3-desktop.png);
+  grid-area: card-3;
+}
+
+.project-card-4 {
+  background-image: url(../images/portfolio/project-card-4-desktop.png);
+  grid-area: card-4;
+}
+
+.project-card-5 {
+  background-image: url(../images/portfolio/project-card-5-desktop.png);
+  grid-area: card-5;
+}
+
+.project-card-7 {
+  background-image: url(../images/portfolio/project-card-7-desktop.png);
+  grid-area: card-7;
+}
+
+.project-card-6 {
+  background-color: var(--color-gray-white);
+  color: var(--color-black-gray);
+  padding: 60px 0;
+  padding-left: 40px;
+  grid-area: card-6;
+}
+
+.card-6-photo {
+  display: flex;
+  font-size: 32px;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.card-6-author {
+  font-size: 18px;
+}
+
+
+.project-card-6 .border {
+  border: var(--color-black-gray) solid 3px;
+  width: 32px;
+}
+
+.card-6-title {
+  font-size: 64px;
+  width: 64px;
+}
+
+.portfolio-pagination {
+  margin: 40px 0;
+  padding: 0 400px;
+}
+
 }
