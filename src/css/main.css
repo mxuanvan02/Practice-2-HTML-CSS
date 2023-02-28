@@ -121,6 +121,9 @@ header {
 
 .features-body {
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .features-body__item {
@@ -155,4 +158,40 @@ header {
   width: 290px;
   height: 169px;
 }
+
+/* ---------------------------------------------------------------------- *\
+                              #DOWNLOAD
+\* ---------------------------------------------------------------------- */
+
+.download {
+  background: url(../images/download/background.png) no-repeat center;
+  padding: 45px 40px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.download-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.download-description {
+  font-size: 11px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  width: 140px;
+  height: 32px;
+  background: var(--color-yellow);
+  border-radius: 50px;
+  margin-bottom: 70px;
+  border: var(--color-yellow);
+}
+
+.download-button:hover {
+  background: var(--color-yellow-hover);
+}
+
 
