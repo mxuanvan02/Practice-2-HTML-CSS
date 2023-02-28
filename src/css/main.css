@@ -510,3 +510,46 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+/* ---------------------------------------------------------------------- *\
+                              #TEAM
+\* ---------------------------------------------------------------------- */
+
+.team {
+  background: url(../images/team/background-mobile.png);
+  color: var(--color-white);
+  padding: 35px 40px;
+}
+
+.team-name {
+  font-size: 24px;
+}
+
+.team-role {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.team-description {
+  font-size: 11px;
+  line-height: 16px;
+  margin: 25px 0;
+}
+
+.team-dots {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.team-dots__dot {
+  width: 8px;
+  height: 8px;
+  border: var(--color-white) solid 1px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.dot-active {
+  background-color: var(--color-white);
+}
