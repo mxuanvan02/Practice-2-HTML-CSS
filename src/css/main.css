@@ -257,3 +257,119 @@ header {
 .testimonials-cards__item-information__socials img {
   margin-right: 15px;
 }
+
+/* ---------------------------------------------------------------------- *\
+                              #PRICING
+\* ---------------------------------------------------------------------- */
+
+.pricing {
+  background-color: var(--color-gray-white);
+  color: var(--color-black-gray);
+  font-size: 11px;
+  text-align: center;
+  padding: 40px 65px;
+}
+
+.pricing-title {
+  font-size: 20px;
+  margin-bottom: 46px;
+}
+
+.pricing-plan__wrap {
+
+}
+
+.pricing-plan__silver {
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  width: 160px;
+  height: 20px;
+  margin: 0 auto;
+  background: linear-gradient(224.09deg, var(--color-black-gray) 5.13%, var(--color-black-gray) 90.88%);
+  background-blend-mode: soft-light;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px #00000080;
+}
+
+.pricing-plan__gold {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  background-color: var(--color-yellow);
+  padding: 28px 22px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px 0px #00000080;
+}
+
+.pricing-plan__silver *, .pricing-plan__platinum * {
+  display: none;
+}
+
+.pricing-plan__platinum {
+  position: relative;
+  z-index: 1;
+  bottom: 265px;
+  width: 140px;
+  height: 20px;
+  margin: 0 auto;
+  background: linear-gradient(223.49deg, var(--color-black) 4.85%, var(--color-black) 96.5%);
+  background-blend-mode: multiply;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px 0px #00000080;
+}
+
+.pricing-plan__type {
+  font-size: 12px;
+}
+
+
+.pricing-plan__price {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-plan__price-dollar {
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.pricing-plan__price-number {
+  font-size: 36px;
+}
+
+.pricing-plan__year {
+  margin: 10px 0;
+}
+
+.pricing-plan__content {
+  margin: 3px 0;
+}
+
+.pricing-plan__purchase {
+  background-color: var(--color-black-gray);
+  color: var(--color-white);
+  width: 140px;
+  height: 32px;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: none;
+}
+
+.pricing-plan__select-wrap {
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.pricing-plan__select-item {
+  padding: 5px 24px;
+}
+
+.selected {
+  background-color: var(--color-yellow);
+  border-radius: 48px;
+}
+

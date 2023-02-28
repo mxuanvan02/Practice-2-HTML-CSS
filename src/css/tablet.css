@@ -118,4 +118,98 @@
     grid-template-rows: 50% 50%;
     column-gap: 40px;
   }
+    
+  /* ---------------------------------------------------------------------- *\
+                                #PRICING
+  \* ---------------------------------------------------------------------- */
+
+  .pricing {
+    background-color: var(--color-gray-white);
+    color: var(--color-black-gray);
+    font-size: 11px;
+    text-align: center;
+    padding: 40px 65px;
+  }
+
+  .pricing-title {
+    font-size: 20px;
+    margin-bottom: 46px;
+  }
+
+  .pricing-plan__wrap {
+    display: flex;
+  }
+  
+  .pricing-plan__silver {
+    position: static;
+    height: 225px;
+    width: 138px;
+    color: var(--color-white);
+    text-align: center;
+    padding: 28px 22px;
+  }
+
+  .pricing-plan__gold {
+    position: static;
+    text-align: center;
+    width: 138px;
+    height: 225px;
+    background-color: var(--color-yellow);
+    padding: 28px 22px;
+    border-radius: 8px;
+  }
+
+  .pricing-plan__silver *, .pricing-plan__platinum * {
+    display: block;
+  }
+
+  .pricing-plan__platinum {
+    position: static;
+    height: 225px;
+    width: 138px;
+    color: var(--color-white);
+    text-align: center;
+    padding: 28px 22px;
+  }
+
+  .pricing-plan__gold .pricing-plan__type {
+    color: var(--color-black-gray);
+  }
+
+  .pricing-plan__type {
+    color: var(--color-yellow);
+  }
+
+
+  .pricing-plan__price {
+    display: flex;
+  }
+
+  .pricing-plan__price-dollar {
+  }
+
+  .pricing-plan__price-number {
+  }
+
+  .pricing-plan__year {
+  }
+
+  .pricing-plan__content {
+  }
+
+  .pricing-plan__silver .pricing-plan__purchase, .pricing-plan__platinum .pricing-plan__purchase {
+    color: var(--color-black-gray);
+    background-color: var(--color-yellow);
+  }
+
+  .pricing-plan__purchase {
+    width: 120px;
+    height: 40px;
+    margin: 30px auto;
+  }
+  
+  .pricing-plan__select-wrap {
+    display: none;
+  }
+
 }
