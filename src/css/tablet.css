@@ -99,4 +99,23 @@
     height: 40px;
     margin-bottom: 30px;
   }
+
+  /* ---------------------------------------------------------------------- *\
+                                #TESTIMONiALS
+  \* ---------------------------------------------------------------------- */
+
+  .testimonials {
+    padding: 40px 24px;
+  }
+
+  .testimonials-title {
+    font-size: 32px;
+  }
+
+  .testimonials-cards__wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    column-gap: 40px;
+  }
 }
